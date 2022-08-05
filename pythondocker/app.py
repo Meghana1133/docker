@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def hello():
- return "Hello World!\n"
+ return "Hello World. How r u!\n"
 
 @app.route("/version") 
 def version():
